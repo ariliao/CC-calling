@@ -1,0 +1,16 @@
+{
+  "name": "cc-calling",
+  "version": "1.0.0",
+  "description": "Sound notifications for Claude Code",
+  "license": "MIT",
+  "bin": {
+    "cc-calling": "./src/volume.js"
+  },
+  "scripts": {
+    "postinstall": "node src/generate-sounds.js && node src/install.js"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "keywords": ["claude-code", "hooks", "audio", "notifications"]
+}

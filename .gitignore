@@ -1,0 +1,18 @@
+# macOS
+.DS_Store
+
+# Sounds are synthesized locally at install time — not shipped in the repo
+sounds/
+
+# User config (volume preference etc.)
+config.json
+
+# Local Claude Code settings
+.claude/
+
+# npm
+node_modules/
+
+# Editor
+.vscode/
+.idea/
